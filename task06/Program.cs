@@ -7,14 +7,13 @@
 
 System.Console.Write("Введите число: ");
 int N = Convert.ToInt32(Console.ReadLine());
-int Number = N;
 if (N > 99 || N < -99)
 {
     while (N > 999 || N < -999)
     {
         N = N / 10;
     }
-    System.Console.WriteLine($"Третья цифра этого числа - это {Math.Abs(N % 10)}");
+    System.Console.Write($"Третья цифра этого числа - это {Math.Abs(N % 10)}");
 }
 else
 {
