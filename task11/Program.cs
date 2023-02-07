@@ -14,7 +14,7 @@ int PowElements(int A, int B)
     {
         result *= A;
     }
-return result;
+    return result;
 }
 
 int Num = GetNumber("Введите число А");
